@@ -15,9 +15,9 @@ A convolutional neural network for image binary segmentation and image regressio
 * tqdm
 
 # Usage
-Very easy to use.\n
-The file 'model.py' contains the model structure. Nothing has to change in it.
-The file 'dataset.py' contains the dataset acquisition:
+Very easy to use.<br>
+The file 'model.py' contains the model structure. Nothing has to change in it.<br>
+The file 'dataset.py' contains the dataset acquisition:<br>
 	for binary segmentation, put the images you want your model to train from, in 'data\dataBinary\train_images' and relative target in 'data\dataBinary\train_masks'
 			 	 then put the images you want the model to test, in 'data\dataBinary\test_images' and ground truth in 'data\dataBinary\test_masks';
 	for regression, put the images you want your model to train from, in 'data\dataRegression\train_images' and relative target in 'data\dataRinary\train_masks'
